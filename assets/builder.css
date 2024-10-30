@@ -1,0 +1,20 @@
+#mapped-cm {
+	margin-top: 1em;
+}
+
+#mapped-cm.nos-0 > .nothing-here,
+#mapped-cm.nos- > .nothing-here {
+	display: block !important;
+}
+#mapped-cm.nos-0 > .something-here,
+#mapped-cm.nos- > .something-here {
+	display: none !important;
+}
+
+#mapped-cm .nothing-here {
+	display: none;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	width: 100%;	
+}
